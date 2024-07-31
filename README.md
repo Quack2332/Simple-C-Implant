@@ -1,6 +1,6 @@
 # Simple-C-Implant
 
-Just a simple implant written in C. 
+Just a simple implant written in C. More information can be found on the corresponding blog post [https://www.ribbiting-sec.info/posts/2024-06-05_csharp_obfuscator/](https://www.ribbiting-sec.info/posts/2024-07-31_implant/)
 
 ## Usage
 
