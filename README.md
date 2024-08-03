@@ -2,6 +2,17 @@
 
 Just a simple implant written in C. More information can be found on the corresponding blog post [https://www.ribbiting-sec.info/posts/2024-06-05_csharp_obfuscator/](https://www.ribbiting-sec.info/posts/2024-07-31_implant/)
 
+## Functionality
+
+For this PoC the following functionality was implemented:
+- Guardrails
+- Retrieve tasks from our C2 with a GET request
+- Execute commands
+- Send output to our C2 with a POST request
+- Download files from the file system (custom task)
+- Provide a random identifier for each connected client
+- For a little bonus, obfuscate the function calls
+
 ## Usage
 
 To use the implant you need to compile it with mingw and strip the binary
